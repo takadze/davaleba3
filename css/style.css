@@ -4,34 +4,78 @@ body{
     box-sizing: border-box;
     
 }
+.hide-nav{
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #212529;
+}
+.hide-about{
+    padding-left: 70px;
+    color: rgb(255, 255, 255);}
+.hide-menu{
+    margin-top: -40px;
+    padding-right: 340px;
+    color: rgb(255, 255, 255);
+}
+.hide-menu{
+    float: right;
+    color: rgb(255, 255, 255);
+}
+.hide-a{
+    float: right;
+    margin-top: -80px;
+    padding-right: 300px;
+    text-decoration: none;
+}
+.hide-a a{
+    color: rgb(255, 255, 255);
+}
+.hide-p{
+    padding-left: 70px;
+    color: rgb(175, 174, 174);
+}
+.hide-show{
+    display: block;
+}
+.hide-shoow{
+    display: none;
+}
+#jaba{
+    background-color: #212529;
+    border: #212529;
+}
+
 .navbar{
     background-color: #212529;
-    height: 55px;
+    height: 64px;
 }
 #logopot{
     color: rgb(255, 255, 255);
     background-color: #212529;
-   height: 26px;
-   width: 26px;
+   height: 27px;
+   width: 27px;
    margin-left: 70px;
    padding-bottom: 5px;
    cursor: pointer;
+  margin-bottom: 6px;
 }
 .span{
     color: blanchedalmond;
     font-size: 18px;
     font-weight: bold;
-    padding-left: 10px;
+    padding-left: 4px;
     cursor: pointer;
+   
 }
 #toogle{
     color: rgb(206, 186, 186);
     background-color: #212529;
-   height: 30px;
-   width: 30px;
-   margin-right: 70px;
-   margin-top: 5px;
-   cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin-right: 70px;
+    margin-top: 5px;
+    cursor: pointer;
 }
 .baner-text{
     width: 100%;
